@@ -205,10 +205,10 @@ ul.social-network li {
 
 /* footer social icons */
 .social-network a.icoLinkedin:hover {
-	background-color: #007bb7;
+	background-color: #fff;
 }
 .social-network a.icoLinkedin:hover i {
-	color:#fff;
+	color:#007bb7;
 }
 
 .social-circle li a {
@@ -243,6 +243,65 @@ ul.social-network li {
 	transition: all 0.2s;
 }
 .social-circle i {
+	color: #333;
+	-webkit-transition: all 0.8s;
+	-moz-transition: all 0.8s;
+	-o-transition: all 0.8s;
+	-ms-transition: all 0.8s;
+	transition: all 0.8s;
+}
+/* github in icon */
+ul.github-network {
+	list-style: none;
+	display: inline;
+	margin-left:0 !important;
+	padding: 0;
+}
+ul.github-network li {
+	display: inline;
+	margin: 0 5px;
+}
+
+/* footer github icons */
+.github-network a.icoGithub:hover {
+	background-color: black;
+}
+.github-network a.icoGithub:hover i {
+	color:#fff;
+}
+
+.github-circle li a {
+	display:inline-block;
+	position:relative;
+	margin:0 auto 0 auto;
+	-moz-border-radius:50%;
+	-webkit-border-radius:50%;
+	border-radius:50%;
+	text-align:center;
+	width: 95px;
+	height: 95px;
+	font-size:35px;
+	padding-top: 22px;
+	padding-left: 3px;
+}
+.github-circle li i {
+	margin:0;
+	line-height:50px;
+	text-align: center;
+}
+
+.github-circle li a:hover i, .triggeredHover {
+	-moz-transform: rotate(360deg);
+	-webkit-transform: rotate(360deg);
+	-ms--transform: rotate(360deg);
+	transform: rotate(360deg);
+	-webkit-transition: all 0.2s;
+	-moz-transition: all 0.2s;
+	-o-transition: all 0.2s;
+	-ms-transition: all 0.2s;
+	transition: all 0.2s;
+}
+.github-circle i {
 	color: #333;
 	-webkit-transition: all 0.8s;
 	-moz-transition: all 0.8s;
