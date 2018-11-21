@@ -46,7 +46,8 @@
 		}
 	
 	});
-	//scroll on top button
+	
+	//------- scroll on top button -----------------//
 	var btn = $("#toTopButton");
 	
 	$(window).scroll(function() {
@@ -61,6 +62,27 @@
 		e.preventDefault();
 		$("html, body").animate({scrollTop:0}, "300");
 	})
+	
+	//--------- modal link to webpage buttons ----------------//
+	//first modal button
+	$("#firstButton").click(function() {
+		window.location="https://no1project.herokuapp.com/";;  
+	}); 
+	//second modal button
+	$("#secondButton").click(function() {
+        window.location="https://itsyournight.herokuapp.com/";  
+	});
+	
+	//third modal button
+	$("#thirdButton").click(function() {
+        window.location="";  
+	}); 
+	
+	//forth modal button
+	$("#forthButton").click(function() {
+        window.location="https://codster.herokuapp.com/";  
+	});
+
 	
 	
 	$('a[href="#"]').on('click', function(event){
