@@ -120,47 +120,49 @@
 		
 		<div class="portfolioContainer">
 			<div id="all">
+				
 				<!-- first picture -->
-				<div class="view view-first">
-					<img src="images/business.png"/>
-					<div class="mask">
-						<h2>Gama Construction Website</h2>
-						<p>HTML and CSS</p>
-						<a href="#" class="info" data-toggle="modal" data-target=".bd-example-modal-lg">Learn More</a>
-					</div><!-- mask -->
-				</div><!-- first picture -->
+					<div class="view view-first">
+							<img src="images/business.png"/>
+						<div class="mask">
+							<h2>Gama Construction Website</h2>
+							<p>HTML and CSS</p>
+							<a href="#firstModal" class="info" data-toggle="modal">Learn More</a>
+						</div><!-- mask -->
+					</div><!-- first picture -->
+				
 				<!-- second picture -->
-				<div class="view view-second">
-					<img src="images/nightLife.jpg" />
-					<div class="mask"></div>
-					<div class="content">
-						<h2 style = "color: black;">It's Your Night</h2>
-						<p style = "color: black;">Materalize, JQuery, Javascript</p>
-						<a href="#" class="info" data-toggle="modal" data-target="#secondModal">Learn More</a>
-					</div><!-- content -->
-				</div><!-- second picture -->
+					<div class="view view-tenth">
+							<img src="images/nightLife.jpg" />
+						<div class="mask">
+							<h2 style = "color: black;">It's Your Night</h2>
+							<p style = "color: black;">Materalize, JQuery, Javascript</p>
+							<a href=".modal-second" class="info" data-toggle="modal" data-target=".modal-second">Learn More</a>
+						</div>
+					</div><!-- second picture -->
+				
 				<!-- third picture -->
-				<div class="view view-tenth">
-					<img src="images/budget-plan.jpg" />
-					<div class="mask">
-						<h2>Budget</h2>
-						<p>SQL, Sequlize, Javascript, Bulma, JQuery</p>
-						<a href="#" class="info" data-toggle="modal" data-target="#thirdModal">Learn More</a>
-					</div><!-- mask -->
-				</div><!-- view-tenth -->
+					<div class="view view-tenth">
+							<img src="images/budget-plan.jpg" />
+						<div class="mask">
+							<h2>Budget</h2>
+							<p>SQL, Sequlize, Javascript, Bulma, JQuery</p>
+							<a href="#thirdModal" class="info" data-toggle="modal" data-target="#thirdModal">Learn More</a>
+						</div><!-- mask -->
+					</div><!-- view-tenth -->
+				
 				<!-- forth picture -->
-				<div class="view view-second">
-					<div style = "position:relative">
-						<img class = "imageUnder" src="images/codingImage.jpg" />
-						<img class = "imageOver" src="images/codeClub.png"/>
-					</div>
-					<div class="mask"></div>
-					<div class="content">
-						<h2 id="testimonials" style="color: green;font-weight: bold;">Code Club</h2>
-						<p style="color: green">&ldquo;Bootstrap, React, Javascript, Node, Mongoose and Mongo&rdquo;</p>
-						<a href="#" class="info" data-toggle="modal" data-target="#forModal" style="margin-top: 70px;">Learn More</a>
-					</div><!-- mask -->
-				</div><!-- view second -->
+					<div class="view view-first">
+						<div style = "position:relative">
+							<img class = "imageUnder" src="images/codingImage.jpg" />
+							<!-- <img class = "imageOver" src="images/codeClub.png"/> -->
+						</div>
+						<div class="mask">
+							<h2 style="font-weight: bold;">Code Club</h2>
+							<p style="font-weight: bold;">Bootstrap, React, Javascript, Node, Mongoose and Mongo</p>
+							<a href="#forModal" class="info" data-toggle="modal" data-target="#forModal" style="margin-top: 70px;">Learn More</a>
+						</div><!-- mask -->
+					</div><!-- view first -->
 			</div><!-- all -->
 		</div><!-- portfolioContainer -->
 	</section><!-- portfolio-section -->
@@ -325,133 +327,186 @@
 	</footer><!-- footer -->
 
 	<!----------------- MODALS --------------------------->
-		<!-- First Modal -->
-			<div class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+	<!-- First Modal -->
+		<div class="modal fade bd-example-modal-lg" id="firstModal" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
 				<div class="modal-dialog modal-lg">
-					<div class="container-fluid">
-						<div class="row">
-							<div class="picture-container">
+				  	<div class="modal-body">
+						<div class="container-fluid">
+							<div class="row">
 								<div class="col-md-12">
-									<div class = "gamaSlikaOne">
-										<a> <img src="images/gamaSlika.png" alt="Logo"></a>
+									<div class="picture-container">
+										<div class = "gamaSlikaOne">
+											<a> <img src="images/gamaSlika.png" alt="Logo"></a>
+										</div>
 									</div>
 								</div>
 							</div>
-							<div class="explenation-container">
-								<div class="col-md-12 ml-auto">
-									<h4><i>Gama</i> Construction Company!</h4>
-									<h5>Build with: HTML and CSS</h5>
-									<p> I am proud to invite you to se my first ever build Website,
-										my first step on journey to become Full Stack Developer. Enjoy!
-									</p>
-								</div>
-									<button type="button" class="close" data-dismiss="modal" aria-label="Close">
-										<span aria-hidden="true">&times;</span>
-									</button>
-								<div class = "linkButton">
-									<button type="button" id ="firstButton" class="btn btn-primary">Visit Website</button>
-								</div><!-- linkButton -->
-							</div><!-- explenation -->
-						</div><!-- row -->
-					</div><!-- container-fluid -->
-				</div><!-- modal-dialog -->
-			</div><!-- first-modal -->
-		<!-- Second Modal -->
-			<div class="modal bd-example" id="secondModal" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel"
-					aria-hidden="true">
-  				<div class="modal-dialog modal-lg">
-	  				<div class="container-fluid-two">
-		  				<div class="row">
-			  				<div class="picture-container-two">
-				  				<div class="col-md-12">
-					  				<div class = "gamaSlikaTwo">
-						  				<a> <img src="images/yourNight.png" alt="Logo"></a>
-					  				</div>
-				  				</div>
-			  				</div>
-			  				<div class="explenation-container-two">
-				  				<div class="col-md-12 ml-auto">
-						  			<h4>It's Your Night</h4>
-						  			<h5>Build with: Materalize, JQuery, Node and Javascript</h5>
-					  				<p> If you are with company or by your self, It's Your Night is perfect
-						  				cite for you to plan amzing food before or after 
-						  				your venue. Check it out!
-					  				</p>
-				  				</div>
-					  				<button type="button" class="close" data-dismiss="modal" aria-label="Close">
-						 			<span aria-hidden="true">&times;</span>
-					  			</button>
-				  				<div class = "linkButton">
-					  				<button type="button" id ="secondButton" class="btn btn-primary">Visit Website</button>
-								</div><!-- linkButton -->
-			  				</div><!-- explenation-container -->
-		  				</div><!-- row -->
-	  				</div><!-- container-fluid -->
-  				</div><!-- modal-dialog -->
-			</div><!-- second-modal -->
-		<!-- Third Modal -->
-			<div class="modal fade" id="thirdModal" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
-				<div class="modal-dialog modal-lg">
-					<div class="container-fluid">
-						<div class="row">
-							<div class="picture-container-three">
+							<div class="row">
 								<div class="col-md-12">
-									<div class = "gamaSlikaThree">
-										<a> <img src="images/budgetApp.png" alt="Logo"></a>
+									<div class="explenation-container">
+										<h4><i>Gama</i> Construction Company!</h4>
+										<h5>Build with: HTML and CSS</h5>
+											<p> I am proud to invite you to se my first ever build Website,
+												my first step on journey to become Full Stack Developer. Enjoy!
+											</p>
+									</div>
+										<div class="row" style="padding-top: 10px;">
+											<div class="col-12 col-sm-12">
+												<div class = "linkButton">
+													<button type="button" id ="firstButton" class="btn btn-primary">Visit Website</button>
+												</div>
+											<!-- <div class="col-6 col-sm-6"> -->
+												<div class="closeButton">
+													<button type="button" class="btn btn-secondary" data-dismiss="modal" aria-label="Close"
+														style = "background-color: #e00;">
+														<span aria-hidden="true" style="color: white">&#10006;</span>
+													</button>
+												</div>
+											<!-- </div> -->
+										</div>
 									</div>
 								</div>
 							</div>
-							<div class="explenation-container">
-								<div class="col-md-12 ml-auto">
-									<h4>Budget App</h4>
-									<h5>Build with: Bulma, Javascript, Node, Sequalize and MySQL</h5>
-									<p> Everyone should maitanin their budget. Check out my Budget App and see if it can help with your budget.
-										Check it out!
-									</p>
+						</div>
+					</div>
+				</div>
+			</div>	
+	
+	<!-- Second Modal -->
+		<div class="modal fade bd-example-modal-lg modal-second" id = "secondModal" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+				<div class="modal-dialog modal-lg">
+				  <div class="modal-body"> 
+					  <div class="container-fluid">
+							<div class="row">
+							  <div class="col-md-12">
+									<div class="picture-container-two">
+										<div class = "gamaSlikaTwo">
+											<a> <img src="images/itsyourNight.png" alt="Logo"></a>
+										</div>
+									</div>
+							  </div>
+						  </div>
+						  <div class="row">	
+								<div class="col-md-12">
+								  <div class="explenation-container-two">
+										<h4>It's Your Night</h4>
+										<h5>Build with: Materalize, JQuery, Node and Javascript</h5>
+										<p> If you are with company or by your self, It's Your Night is perfect
+											cite for you to plan amzing food before or after 
+											your venue. Check it out!
+										</p>
+								  </div>
+									  <div class="row" style="padding-top: 10px;">
+										  <div class="col-10 col-sm-10">
+											  <div class = "linkButtonTwo">
+												  <button type="button" id ="firstButton" class="btn btn-primary">Visit Website</button>
+											  </div>
+										  </div>
+										  <div class="col-2 col-sm-2">
+											  <div class="closeButtonTwo">
+												  <button type="button" class="btn btn-secondary" data-dismiss="modal"aria-label="Close"
+													  style = "background-color: #e00;">
+													  <span aria-hidden="true" style="color: white">&#10006;</span>
+												  </button>
+											  </div>
+										  </div>
+									  </div>
+								  </div>
 								</div>
-								<button type="button" class="close" data-dismiss="modal" aria-label="Close">
-									<span aria-hidden="true" style="padding-right: 20px;">&times;</span>
-								</button>
-								<div class = "linkButton">
-									<button type="button" id ="firstButton" class="btn btn-primary">Visit Website</button>
-								</div><!-- linkButton -->
-							</div><!-- explenation-container -->
-						</div><!-- row -->
-					</div><!-- container-fluid -->
+						  </div>	
+					  </div>
+				  </div>
+			  </div>
+		  </div>
+			
+	<!-- Third Modal -->
+		<div class="modal fade" id="thirdModal" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+				<div class="modal-dialog modal-lg">
+					<div class="modal-body"> 
+						<div class="container-fluid">
+							<div class="row">
+								<div class="col-md-12">
+									<div class="picture-container-three">
+										<div class = "gamaSlikaThree">
+											<a> <img src="images/newbudget.png" alt="Logo" style="border-radius: 30px;"></a>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="row">
+								<div class="col-md-12">
+									<div class="explenation-container">
+										<h4>Budget App</h4>
+										<h5>Build with: Bulma, Javascript, Node, Sequalize and MySQL</h5>
+										<p> Everyone should maitanin their budget. Check out my Budget App and see if it can help with your budget.
+											Check it out!
+										</p>
+									</div>
+									<div class="row" style="padding-top: 10px;">
+										<div class="col-10 col-sm-10">
+											<div class = "linkButtonTwo">
+												<button type="button" id ="firstButton" class="btn btn-primary">Visit Website</button>
+											</div>
+										</div>
+										<div class="col-2 col-sm-2">
+											<div class="closeButtonTwo">
+												<button type="button" class="btn btn-secondary" data-dismiss="modal"aria-label="Close"
+													style = "background-color: #e00;">
+													<span aria-hidden="true" style="color: white">&#10006;</span>
+												</button>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div><!-- row -->
+						</div><!-- container-fluid -->
+					</div><!-- modal-body -->
 				</div><!-- modal-dialog -->
 			</div><!-- third-modal -->
-		<!-- Forth Modal -->
-			<div class="modal fade" id="forModal" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
-				<div class="modal-dialog modal-lg">
+	<!-- Forth Modal -->
+		<div class="modal fade forModal" id="forModal" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+			<div class="modal-dialog modal-lg">
+				<div class="modal-body">
 					<div class="container-fluid-four">
 						<div class="row">
-							<div class="picture-container-four">
-								<div class="col-md-12">
+							<div class="col-md-12">
+								<div class="picture-container-four">
 									<div class = "gamaSlikaFour">
-										<a><img src="images/codeClubMain.png" style ="height: 300px;padding-right: 100px;" alt="Logo"></a>
+										<a><img src="images/codePicture.png" alt="Logo"></a>
 									</div>
 								</div>
 							</div>
-							<div class="explenation-container">
-								<div class="col-md-12 ml-auto">
+						</div>
+						<div class="row">
+							<div class="col-md-12">
+								<div class="explenation-container">
 									<h4>Coding Club</h4>
 									<h5>Build with: Bootstrap, React, Javascript, Mongo, Mongoose and Node</h5>
 									<p> Code Club is invented to teach you how to code or help you to be prepared for your interview 
 										by practicing algorithyms. Give it a try!
 									</p>
 								</div>
-									<button type="button" class="close" style="padding-right: 20px;" data-dismiss="modal" aria-label="Close">
-										<span aria-hidden="true">&times;</span>
-									</button>
-								<div class = "linkButton">
-									<button type="button" id ="firstButton" class="btn btn-primary">Visit Website</button>
-								</div><!-- linkButton -->
-							</div><!-- explenation-container -->
-						</div><!-- row -->
+								<div class="row" style="padding-top: 10px;">
+									<div class="col-10 col-sm-10">
+										<div class = "linkButtonTwo">
+											<button type="button" id ="firstButton" class="btn btn-primary">Visit Website</button>
+										</div>
+									</div>
+									<div class="col-2 col-sm-2">
+										<div class="closeButtonTwo">
+											<button type="button" class="btn btn-secondary" data-dismiss="modal"aria-label="Close"
+												style = "background-color: #e00;">
+												<span aria-hidden="true" style="color: white">&#10006;</span>
+											</button>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
 					</div><!-- container-fluid -->
-				</div><!-- modal-dialog -->
-			</div><!-- forth-modal -->
-	
+				</div><!-- modal-body -->
+			</div><!-- modal-dialog -->
+		</div><!-- forth-modal -->
 	<!-- SCIPTS -->
 	
 	<script src="common-js/jquery-3.2.1.min.js"></script>

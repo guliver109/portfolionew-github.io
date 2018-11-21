@@ -514,7 +514,7 @@ ul.github-network li {
 	-webkit-transition: all 0.2s 0.1s ease-in-out;
 	margin-top: 100px;
   }
-  /* */
+  /* hover */
 .view-second:hover .mask {
 	opacity: 1;
 	transform: translate(-80px, -125px) rotate(45deg);
@@ -599,10 +599,10 @@ ul.github-network li {
 	transform: scale(1);
 	opacity: 1;
   }
-  .gamaSlikaThree {
+  /* .gamaSlikaThree {
 	padding-left: 100px;
     height: 280px;
-  }
+  } */
   /*----------------forth picture------------------------- */
 .forth {
 	position: relative;
@@ -717,18 +717,19 @@ ul.github-network li {
 } */
 .explenation-container {
 	background-color: #EAE6DA;
-	width: 700px;
-	height: 200px;
+	/* width: 700px;
+	height: 200px; */
 	/* padding-left: 15px; */
 	/* padding-left: 20px; */
 	/* padding-right: 20px; */
-	padding: 30px;
+	padding: 20px 30px 60px 30px;
 }	
 
 .picture-container {
 	background-color: #000099;
-	width: 700px;
-	height: 300px;
+	/* width: 700px;
+	height: 300px; */
+	padding: 20px;
 }
 .modal {
 	position: absolute;
@@ -741,21 +742,23 @@ ul.github-network li {
 	overflow-y: auto;
 }
 .linkButton {
-	position: absolute;
+	/* position: absolute;
 	left:    0px;
 	bottom:   0;
-	margin: 20px;
+	margin: 20px; */
+	margin-top: -60px;
+    margin-left: 30px;
+	height: 10px;
+	width: 30px;
 	background-color: cadetblue;
 }
 .gamaSlikaOne {
 	padding-top: 20px;
 }
-.close {
-	position: absolute;
-    /* left: 0px; */
-    bottom: 0;
-	right: 100px;
-	margin: 20px;
+.closeButton {
+	float: right;
+    margin-top: -60px;
+    margin-right: 30px;
 }
 #firstButton {
 	background-color: cadetblue;
@@ -763,23 +766,27 @@ ul.github-network li {
 }
 
 /* second Modal */
-.picture-container-two {
-	background-color: black;
-	width: 700px;
-	height: 300px;
-}
+
 .explenation-container-two {
 	background-color: #EAE6DA;
-	width: 700px;
-	height: 200px;
+	/* width: 700px;
+	height: 200px; */
 	/* padding-left: 15px; */
 	/* padding-left: 20px; */
 	/* padding-right: 20px; */
-	padding: 30px;
+	padding: 20px 30px 60px 30px;
 }
+
+.picture-container-two {
+	background-color: black;
+	/* width: 700px;
+	height: 300px; */
+	padding: 20px;
+}
+
 .gamaSlikaTwo {
 	padding-top: 20px;
-    padding-left: 120px;
+    /* padding-left: 120px; */
 }
 #secondButton {
 	background-color: cadetblue;
@@ -788,26 +795,43 @@ ul.github-network li {
 .view-second {
 	width: 300px;
 }
+.closeButtonTwo {
+	float: right;
+    margin-top: -60px;
+	margin-right: 30px;
+}
+.linkButtonTwo {
+	/* position: absolute;
+	left:    0px;
+	bottom:   0;
+	margin: 20px; */
+	margin-top: -60px;
+    margin-left: 30px;
+	height: 10px;
+	width: 30px;
+	background-color: cadetblue;
+}
 
 /* Third Modal */
 .picture-container-three {
 	background-color: #00d1b2;
-	width: 700px;
-	height: 300px;
+	/* width: 700px;
+	height: 300px; */
+	padding: 30px;
 }
 .explenation-container-three {
 	background-color: #EAE6DA;
-	width: 700px;
-	height: 200px;
+	/* width: 700px;
+	height: 200px; */
 	/* padding-left: 15px; */
 	/* padding-left: 20px; */
 	/* padding-right: 20px; */
-	padding: 30px;
+	padding: 20px 30px 20px 30px;
 	}
-.gamaSlikaThree {
-	/* padding-top: 20px; */
+/* .gamaSlikaThree {
+	padding-top: 20px;
     padding-left: 120px;
-}
+} */
 #thirdButton {
 	background-color: cadetblue;
 	border: cadetblue
@@ -819,13 +843,14 @@ ul.github-network li {
 /* Forth Modal */
 .picture-container-four {
 	background-color: black;
-	height: 300px;
-	width: 700px;
+	/* height: 300px;
+	width: 700px; */
+	padding: 30px;
 }
-.gamaSlikaFour {
-	/* padding-top: 20px; */
+/* .gamaSlikaFour {
+	padding-top: 20px;
     padding-left: 120px;
-}
+} */
 #thirdButton {
 	background-color: cadetblue;
 	border: cadetblue
