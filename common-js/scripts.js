@@ -75,7 +75,7 @@
 	
 	//third modal button
 	$("#thirdButton").click(function() {
-        window.location="";  
+        window.location="https://budget-checker.herokuapp.com/";  
 	}); 
 	
 	//forth modal button
