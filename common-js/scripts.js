@@ -75,7 +75,7 @@
 	
 	//third modal button
 	$("#thirdButton").click(function() {
-        window.location="https://budget-checker.herokuapp.com/";  
+        window.location="https://mongoosescrape011.herokuapp.com/";  
 	}); 
 	
 	//forth modal button
