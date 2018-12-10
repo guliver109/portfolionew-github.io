@@ -75,7 +75,7 @@
 	
 	//third modal button
 	$("#thirdButton").click(function() {
-        window.location="https://mongoosescrape011.herokuapp.com/";  
+        window.location="https://ganaconsructions.herokuapp.com/";  
 	}); 
 	
 	//forth modal button

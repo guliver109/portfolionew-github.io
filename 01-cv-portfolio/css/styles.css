@@ -506,8 +506,20 @@ ul.github-network li {
 	-webkit-transition: all 0.2s ease-in-out;
 	font-size: 20px;
   }
+  .view a.info-two {
+	border: 3px;
+	display: inline-block;
+	text-decoration: none;
+	padding: 7px 14px;
+	background: cadetblue;
+	color: #fff;
+	font-family: Poppins, serif;
+	text-transform: uppercase;
+	box-shadow: 0 0 3px cadetblue;
+	margin-top: 110px;
+  }
   
-  .view-second a.info {
+  .view-second a.info-two {
 	transform: translate(0px, 100px);
 	-webkit-transform: translate(0px, 200px);
 	transition: all 0.2s 0.1s ease-in-out;
@@ -535,7 +547,7 @@ ul.github-network li {
 	-webkit-transition-delay: 0.4s;
   }
   
-  .view-second:hover a.info {
+  .view-second:hover a.info-two {
 	transform: translate(0px, 0px);
 	-webkit-transform: translate(0px, 0px);
 	transition-delay: 0.5s;
@@ -580,7 +592,7 @@ ul.github-network li {
 	opacity: 0;
 	transform: scale(0);
 	transition: all 0.5s linear;
-	margin-top: 100px;
+	margin-top: 70px;
   }
   
   .view-tenth:hover img {
@@ -814,19 +826,19 @@ ul.github-network li {
 
 /* Third Modal */
 .picture-container-three {
-	background-color: #00d1b2;
+	background-color: #4d443d;
 	/* width: 700px;
 	height: 300px; */
 	padding: 30px;
 }
 .explenation-container-three {
-	background-color: #EAE6DA;
+	background-color: #d8ab4e;
 	/* width: 700px;
 	height: 200px; */
 	/* padding-left: 15px; */
 	/* padding-left: 20px; */
 	/* padding-right: 20px; */
-	padding: 20px 30px 20px 30px;
+	padding: 20px 30px 60px 30px;
 	}
 /* .gamaSlikaThree {
 	padding-top: 20px;
@@ -839,7 +851,22 @@ ul.github-network li {
 .view-tenth {
 	width: 300px;
 }
-
+.closeButtonThree {
+	float: right;
+    margin-top: -60px;
+	margin-right: 30px;
+}
+.linkButtonThree {
+	/* position: absolute;
+	left:    0px;
+	bottom:   0;
+	margin: 20px; */
+	margin-top: -60px;
+    margin-left: 30px;
+	height: 10px;
+	width: 30px;
+	background-color: cadetblue;
+}
 /* Forth Modal */
 .picture-container-four {
 	background-color: black;
