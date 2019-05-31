@@ -75,7 +75,7 @@
 	
 	//third modal button
 	$("#thirdButton").click(function() {
-        window.location="https://stark-chamber-69722.herokuapp.com/";  
+        window.location="https://www.gana-zgr.com/";  
 	}); 
 	
 	//forth modal button
