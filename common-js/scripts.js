@@ -77,10 +77,10 @@
 	$("#thirdButton").click(function() {
         window.location="https://www.gana-zgr.com/";  
 	}); 
-	
+	``
 	//forth modal button
 	$("#forthButton").click(function() {
-        window.location="https://codster.herokuapp.com/";  
+        window.location="https://lightbulbproject.herokuapp.com/";  
 	});
 
 	
